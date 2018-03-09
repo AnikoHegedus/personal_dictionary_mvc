@@ -5,6 +5,7 @@
 	height: 14%;
 	background-image: url("../img/dictionary.png");
 	background-size: contain;
+	background-color: red;
 }
 
 #header h1 {
