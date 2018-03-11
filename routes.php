@@ -24,9 +24,9 @@
 
   // we're adding an entry for the new controller and its actions
   $controllers = array('pages' => ['home', 'error'],
-                       'home' => ['index', 'show', 'lg'],
+                       'home' => ['main', 'show', 'lg'],
                        'word' => ['show_dictionary', 'add_word'],
-                       'about' => ['show'],
+                       'about' => ['show']
                       );
 
   if (array_key_exists($controller, $controllers)) {

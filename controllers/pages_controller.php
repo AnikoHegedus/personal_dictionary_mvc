@@ -1,7 +1,7 @@
 <?php
   class PagesController {
     public function home() {
-      require_once('views/home/index.php');
+      require_once('views/home/main.php');
     }
 
     public function error() {

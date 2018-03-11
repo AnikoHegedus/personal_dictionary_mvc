@@ -1,4 +1,5 @@
 
+
 <div id="wrapper">
 <div id="first-section">
   <div class="flexbox-container">
@@ -18,11 +19,7 @@
 
   <div id="solution" class="flex-item">
     <button id="btn-show-solution">I want to see the correct answer</button>
-    
-    <p id="test"><?php /* echo $wordToPrint; */ ?></p>
-    
-    
-
   </div>
+  <p id="test"><?php /*if ($wordToPrint != 'undefined')*/ /*echo $wordToPrint;*/ ?></p>
 </div>
 </div>

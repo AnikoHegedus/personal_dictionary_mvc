@@ -59,8 +59,8 @@
       } else {
           echo "Error: " . $sql . "<br>" . $conn->error;
       } */
-      $new_word = $_POST['lg1'];
-      return $new_word;
+      /*$new_word = $_POST['lg1'];
+      return $new_word;*/
     }
 
   }

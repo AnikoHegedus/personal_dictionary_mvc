@@ -7,7 +7,7 @@
     $action     = $_GET['action'];
   } else {
     $controller = 'home';
-    $action     = 'index';
+    $action     = 'main';
   }
 
   require_once('views/layout.php');

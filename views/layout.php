@@ -8,12 +8,11 @@
 
   <body>
     <header>
-      <?php include ("header.php"); ?>
+      <?php include ("common/header.php"); ?>
       
     </header>
 
-    <?php include ("menu.php"); ?>
-
+    <?php include ("common/menu.php"); ?>
 
     <?php require_once('routes.php'); ?>
 

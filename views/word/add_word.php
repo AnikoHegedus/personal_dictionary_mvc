@@ -15,4 +15,4 @@
 </div>
 
 
-<?php echo $_POST['lg1'];?>
+<!--<?php echo $_POST['lg1'];?>-->

@@ -11,17 +11,15 @@ $(document).ready(function(){
       });
 
       $("#lg1").click(function() { 
-        
         $.ajax({
-          type: "POST", 
-          url: '?controller=home&action=index',
+          type: "POST",
+          url: '?controller=home&action=show',
+          dataType: 'text',
           data:{
-            'answInEn': true
+            'answInEn': true,
         },
           success: function(p) {
-            
-              $("#test").text(p);
-
+            $("#test").html(p);
           },
           
         })/* .done(function( data ) {
