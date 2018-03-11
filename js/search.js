@@ -14,12 +14,14 @@ $(document).ready(function(){
         $.ajax({
           type: "POST",
           url: '?controller=home&action=show',
-          dataType: 'text',
           data:{
             'answInEn': true,
         },
-          success: function(p) {
-            $("#test").html(p);
+          success: function(data) {
+          
+            $("#test2").html(data);
+            
+            //console.log(word);
           },
           
         })/* .done(function( data ) {

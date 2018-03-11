@@ -8,7 +8,7 @@
 
   <body>
     <header>
-      <?php include ("common/header.php"); ?>
+      <div class="header"><?php include ("common/header.php"); ?></div>
       
     </header>
 

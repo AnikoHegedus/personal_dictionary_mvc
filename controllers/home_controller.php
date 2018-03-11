@@ -1,12 +1,13 @@
 <?php
   require_once('models/word.php');
+  
   class HomeController{
     public function main() {
-     
       require_once('views/home/main.php');
     }
 
     public function show() {
+   
  $words = Word::all();
       //$word = Word::find($_GET['id']);
       $difficultWords = Word::findByDifficulty('difficult');
@@ -22,9 +23,10 @@
           //return $wordToPrint;
         }else{
           $wordToPrint = $easyWords[$rand]->lg2;
-          echo $wordToPrint;
+         // echo $wordToPrint;
           //return $wordToPrint;
         }
+        
         } 
       /*  require_once('views/home/show.php');
         require_once('views/home/main.php');*/
