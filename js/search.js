@@ -19,7 +19,7 @@ $(document).ready(function(){
         },
           success: function(data) {
           
-            $("#test2").html(data);
+            $("#test2").html('data');
             
             //console.log(word);
           },
