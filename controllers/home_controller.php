@@ -18,7 +18,8 @@
         $rand = array_rand($easyWords, 1);
         $answInEn =  $_POST["answInEn"];
         if($answInEn){
-          $wordToPrint = $easyWords[$rand]->lg1;
+          //$wordToPrint = $easyWords[$rand]->lg1;
+          $wordToPrint = 'this word';
           echo $wordToPrint;
           //return $wordToPrint;
         }else{
