@@ -8,7 +8,9 @@
 
     public function show() {
    
- $words = Word::all();
+      $wordToPrint = 'this word';
+      echo $wordToPrint;
+ /* $words = Word::all();
       //$word = Word::find($_GET['id']);
       $difficultWords = Word::findByDifficulty('difficult');
       $moderateWords = Word::findByDifficulty('moderate');
@@ -19,7 +21,6 @@
         $answInEn =  $_POST["answInEn"];
         if($answInEn){
           //$wordToPrint = $easyWords[$rand]->lg1;
-          $wordToPrint = 'this word';
           echo $wordToPrint;
           //return $wordToPrint;
         }else{
@@ -28,7 +29,7 @@
           //return $wordToPrint;
         }
         
-        } 
+        }  */
       /*  require_once('views/home/show.php');
         require_once('views/home/main.php');*/
     }
