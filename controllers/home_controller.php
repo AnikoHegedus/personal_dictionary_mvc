@@ -10,6 +10,7 @@
    
       $wordToPrint = 'this word';
       echo $wordToPrint;
+      return wordToPrint;
  /* $words = Word::all();
       //$word = Word::find($_GET['id']);
       $difficultWords = Word::findByDifficulty('difficult');
