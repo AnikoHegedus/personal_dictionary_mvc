@@ -20,7 +20,7 @@
   <div id="solution" class="flex-item">
     <button id="btn-show-solution">I want to see the correct answer</button>
   </div>
-  <p id="test1"><?php /*if ($wordToPrint != 'undefined')*/ echo $wordToPrint; echo $word; ?></p>
+  <p id="test1"><?php /*if ($wordToPrint != 'undefined')*/ echo $wordToPrint;?></p>
   <p id="test2"></p>
 </div>
 </div>

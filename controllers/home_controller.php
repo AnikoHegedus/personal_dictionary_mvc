@@ -3,16 +3,14 @@
   
   class HomeController{
     public function main() {
-      $word = 'this word from main';
-      $this->set($word);
       require_once('views/home/main.php');
     }
 
     public function show() {
-   
-      $wordToPrint = 'this word from show';
-      $this->set($wordToPrint);
-      //echo $wordToPrint;
+      $word = 'THIS';
+      $wordToPrint = '<div class="test3">' . $word . '</div>';
+      
+      echo $wordToPrint;
       //return $wordToPrint;
  /* $words = Word::all();
       //$word = Word::find($_GET['id']);
