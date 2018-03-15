@@ -7,13 +7,13 @@
     }
 
     public function show() {
-      $word = 'THIS';
+     /*  $word = 'THIS';
       $wordToPrint = '<div class="test3">' . $word . '</div>';
       
-      echo $wordToPrint;
+      echo $wordToPrint; */
       //return $wordToPrint;
- /* $words = Word::all();
-      //$word = Word::find($_GET['id']);
+ $words = Word::all();
+      $word = Word::find($_GET['id']);
       $difficultWords = Word::findByDifficulty('difficult');
       $moderateWords = Word::findByDifficulty('moderate');
       $easyWords = Word::findByDifficulty('easy');
@@ -22,16 +22,16 @@
         $rand = array_rand($easyWords, 1);
         $answInEn =  $_POST["answInEn"];
         if($answInEn){
-          //$wordToPrint = $easyWords[$rand]->lg1;
+          $wordToPrint = $easyWords[$rand]->lg1;
           echo $wordToPrint;
-          //return $wordToPrint;
+          return $wordToPrint;
         }else{
           $wordToPrint = $easyWords[$rand]->lg2;
-         // echo $wordToPrint;
-          //return $wordToPrint;
+          echo $wordToPrint;
+          return $wordToPrint;
         }
         
-        }  */
+        } 
       /*  require_once('views/home/show.php');
         require_once('views/home/main.php');*/
     }
