@@ -21,6 +21,6 @@
     <button id="btn-show-solution">I want to see the correct answer</button>
   </div>
   <p id="test1"><?php /*if ($wordToPrint != 'undefined')*/ echo $wordToPrint;?></p>
-  <p id="test2"></p>
+  <p id="test2"><?php /*if ($wordToPrint != 'undefined')*/ echo $wordToPrint;?></p>
 </div>
 </div>
